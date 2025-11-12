@@ -1,5 +1,33 @@
 * {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
+body{
+    height: 100vh;
+    background-color: black;
+}
+
+.container{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    > h1 {
+        color: white;
+        font-size: 120px;
+        font-weight: 400;
+        font-family: sans-serif;
+        text-align: end;
+    }
+
+    > h1 p {
+        color: white;
+        font-size: 64px;
+        font-weight: 100;
+        font-style: italic;
+    }
+}
+
